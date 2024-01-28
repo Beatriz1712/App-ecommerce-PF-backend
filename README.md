@@ -1,4 +1,4 @@
-  # PRACTICA INTEGRADORA 4 - BACKEND
+  # PROYECTO FINAL - BACKEND
   Este proyecto es una aplicación en Node.js que gestiona productos y carritos de compras, con funcionalidades avanzadas de gestión de usuarios y productos. Utiliza Handlebars para renderizar vistas, MongoDB para la persistencia de datos y cuenta con un sistema de autenticación y autorización para diferentes roles de usuario.
 
  En esta Versión : 

@@ -9,7 +9,7 @@ Tambien se incluye una opcion de validacion para que los usuarios normales de ti
 Packages utilizados
 "bcrypt": "^5.1.1", "cookie-parser": "^1.4.6", "cron": "^3.1.6", "dotenv": "^16.3.1", "express": "^4.18.2", "express-compression": "^1.0.2", "express-handlebars": "^7.1.2", "jsonwebtoken": "^9.0.2", "mongoose": "^7.6.1", "nanoid": "^5.0.3", "nodemailer": "^6.9.7", "nodemon": "^3.0.1", "passport": "^0.6.0", "passport-jwt": "^4.0.1", "passport-local": "^1.0.0", "socket.io": "^4.7.2", "swagger-jsdoc": "^6.2.8", "swagger-ui-express": "^5.0.0", "sweetalert2": "^11.10.1", "winston": "^3.11.0" "chai": "^5.0.0", "mocha": "^10.2.0", "supertest": "^6.3.3"
 
-Accesos al sistema
+Accesos al sistema :
 Al momento de ejecutar aplicación se puede registrar un nuevo usuario
 
 Rol : Admin, email :  pati@pati, password: 123456

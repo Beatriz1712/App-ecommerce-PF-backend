@@ -18,7 +18,7 @@ import methodOverride from "method-override";
 //para aumentar los listeners
 import EventEmitter from "events";
 EventEmitter.defaultMaxListeners = 15;
-/**** */
+//
 import swaggerJSDoc from 'swagger-jsdoc';
 import SwaggerUiExpress from 'swagger-ui-express';
 
@@ -53,7 +53,7 @@ app.use("/apidocs", SwaggerUiExpress.serve, SwaggerUiExpress.setup(swaggerSpecs)
 const customHandlebarsHelpers = {
   eq: (v1, v2) => v1 === v2,
   or: (v1, v2) => v1 || v2,
-  // Puedes añadir más helpers aquí si es necesario
+  // Se puede añadir más helpers aquí si es necesario
 };
 
 app.use(express.json())
@@ -64,8 +64,6 @@ connectDB();
 
 // Configuración de la sesión
 app.use(session(sessionConfig));
-
-// ---------------------------------------------
 
 //Passport
 initializePassword()
@@ -112,8 +110,6 @@ app.get('/mockingproducts', (req, res) => {
 
   res.render('faker', { products: mockProducts });
 });
-
-
 
 //Css static
 app.use("/", express.static(__dirname + "/public"))
